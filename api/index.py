@@ -660,7 +660,7 @@ wait_page_html = """
     <div class="wait-container">
         <h1>Please Wait</h1>
         <p>Your download link is being generated. You will be redirected automatically.</p>
-        <div class="timer">Please wait <span id="countdown">5</span> seconds...</div>
+        <div class="timer">Please wait <span id="countdown">15</span> seconds...</div>
         <a id="get-link-btn" class="get-link-btn" href="#">Generating Link...</a>
         {% if ad_settings.ad_wait_page %}<div class="ad-container">{{ ad_settings.ad_wait_page | safe }}</div>{% endif %}
     </div>

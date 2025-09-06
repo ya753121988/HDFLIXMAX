@@ -11,7 +11,7 @@ import math # Added for pagination calculation
 
 # --- Environment Variables ---
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://ya753121988_db_user:WhAXy8j6AXm8MmyF@cluster0.wnhpfeu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "7dc544d9253bccc3cfecc1c677f69819")
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "275aff9f1c570308fa10d14c6f49f998")
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "HDFLIXMAX198")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HDFLIXMAX198")
 WEBSITE_NAME = os.environ.get("WEBSITE_NAME", "HDFLIXMAX")
